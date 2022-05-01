@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -euxo pipefail
+set -euo pipefail
 
 echo "Installing dotfiles in your mac"
 export DOTFILES_PATH="$HOME/.dotfiles"
